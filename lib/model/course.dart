@@ -6,34 +6,47 @@ class Course {
 
   Course({
     required this.title,
-    this.description = 'Build and animate an iOS app from scratch',
+     this.description = 'Find unique preloved items',
     this.iconSrc = "assets/icons/ios.svg",
     this.color = const Color(0xFF7553F6),
   });
 }
 
-final List<Course> courses = [
+final List<Course> categories = [
   Course(
-    title: "Animations in SwiftUI",
+    title: "Fashion",
   ),
   Course(
-    title: "Animations in Flutter",
+    title: "Electronics",
     iconSrc: "assets/icons/code.svg",
     color: const Color(0xFF80A4FF),
   ),
+  Course(
+    title: "Home & Garden",
+    iconSrc: "assets/icons/code.svg",
+    color: const Color(0xFF9CC5FF),
+  ),
+  Course(
+    title: "Books",
+    iconSrc: "assets/icons/code.svg",
+    color: const Color(0xFFA87CF0),
+  ),
 ];
 
-final List<Course> recentCourses = [
-  Course(title: "State Machine"),
+final List<Course> recentItems = [
   Course(
-    title: "Animated Menu",
+      title: "Vintage Leather Jacket",
+      description: "Size M, excellent condition"),
+  Course(
+    title: "Wireless Headphones",
     color: const Color(0xFF9CC5FF),
     iconSrc: "assets/icons/code.svg",
   ),
-  Course(title: "Flutter with Rive"),
+  Course(title: "Coffee Table", description: "Modern design, solid wood"),
   Course(
-    title: "Animated Menu",
+    title: "Designer Handbag",
     color: const Color(0xFF9CC5FF),
     iconSrc: "assets/icons/code.svg",
+    description: "Gently used, authentic"
   ),
 ];

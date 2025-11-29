@@ -20,7 +20,7 @@ class HomePage extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.all(20),
                 child: Text(
-                  "Courses",
+                  "Categories",
                   style: Theme.of(context).textTheme.headlineMedium!.copyWith(
                       color: Colors.black, fontWeight: FontWeight.bold),
                 ),
@@ -28,14 +28,14 @@ class HomePage extends StatelessWidget {
               SingleChildScrollView(
                 scrollDirection: Axis.horizontal,
                 child: Row(
-                  children: courses
+                  children: categories
                       .map(
-                        (course) => Padding(
+                        (category) => Padding(
                           padding: const EdgeInsets.only(left: 20),
                           child: CourseCard(
-                            title: course.title,
-                            iconSrc: course.iconSrc,
-                            color: course.color,
+                            title: category.title,
+                            iconSrc: category.iconSrc,
+                            color: category.color,
                           ),
                         ),
                       )
@@ -45,18 +45,18 @@ class HomePage extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.all(20),
                 child: Text(
-                  "Recent",
+                  "Recent Items",
                   style: Theme.of(context).textTheme.headlineSmall!.copyWith(
                       color: Colors.black, fontWeight: FontWeight.bold),
                 ),
               ),
-              ...recentCourses.map((course) => Padding(
+              ...recentItems.map((item) => Padding(
                     padding:
                         const EdgeInsets.only(left: 20, right: 20, bottom: 20),
                     child: SecondaryCourseCard(
-                      title: course.title,
-                      iconsSrc: course.iconSrc,
-                      colorl: course.color,
+                      title: item.title,
+                      iconsSrc: item.iconSrc,
+                      colorl: item.color,
                     ),
                   )),
             ],

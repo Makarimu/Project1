@@ -30,7 +30,7 @@ List<Menu> sidebarMenus = [
         stateMachineName: "STAR_Interactivity"),
   ),
   Menu(
-    title: "Help",
+    title: "Cart",
     rive: RiveModel(
         src: "assets/RiveAssets/icons.riv",
         artboard: "CHAT",
@@ -39,7 +39,7 @@ List<Menu> sidebarMenus = [
 ];
 List<Menu> sidebarMenus2 = [
   Menu(
-    title: "History",
+    title: "My Orders",
     rive: RiveModel(
         src: "assets/RiveAssets/icons.riv",
         artboard: "TIMER",
@@ -56,28 +56,28 @@ List<Menu> sidebarMenus2 = [
 
 List<Menu> bottomNavItems = [
   Menu(
-    title: "Chat",
+    title: "Home",
     rive: RiveModel(
         src: "assets/RiveAssets/icons.riv",
         artboard: "CHAT",
         stateMachineName: "CHAT_Interactivity"),
   ),
   Menu(
-    title: "Search",
+    title: "Categories",
     rive: RiveModel(
         src: "assets/RiveAssets/icons.riv",
         artboard: "SEARCH",
         stateMachineName: "SEARCH_Interactivity"),
   ),
   Menu(
-    title: "Timer",
+    title: "Sell",
     rive: RiveModel(
         src: "assets/RiveAssets/icons.riv",
         artboard: "TIMER",
         stateMachineName: "TIMER_Interactivity"),
   ),
   Menu(
-    title: "Notification",
+    title: "Cart",
     rive: RiveModel(
         src: "assets/RiveAssets/icons.riv",
         artboard: "BELL",

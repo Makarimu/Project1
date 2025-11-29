@@ -72,7 +72,7 @@ class _OnbodingScreenState extends State<OnbodingScreen> {
                       child: Column(
                         children: [
                           Text(
-                            "Learn design & code",
+                            "Prelovedly",
                             style: TextStyle(
                               fontSize: 60,
                               fontWeight: FontWeight.w700,
@@ -82,7 +82,7 @@ class _OnbodingScreenState extends State<OnbodingScreen> {
                           ),
                           SizedBox(height: 16),
                           Text(
-                            "Don’t skip design. Learn design and code, by building real apps with Flutter and Swift. Complete courses about the best tools.",
+                            "Discover unique preloved items from sellers worldwide. Shop sustainably and find treasures that match your style and values.",
                           ),
                         ],
                       ),
@@ -119,7 +119,7 @@ class _OnbodingScreenState extends State<OnbodingScreen> {
                     const Padding(
                       padding: EdgeInsets.symmetric(vertical: 24),
                       child: Text(
-                          "Purchase includes access to 30+ courses, 240+ premium tutorials, 120+ hours of videos, source files and certificates."),
+                          "Join our community of sustainable shoppers and sellers. Browse thousands of preloved items with secure transactions and fast shipping."),
                     )
                   ],
                 ),

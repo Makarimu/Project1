@@ -115,6 +115,7 @@ class _SignInFormState extends State<SignInForm> {
                   keyboardType: TextInputType.emailAddress,
                   textInputAction: TextInputAction.next,
                   decoration: InputDecoration(
+                    hintText: "Enter your email",
                     prefixIcon: Padding(
                       padding: const EdgeInsets.symmetric(horizontal: 8),
                       child: SvgPicture.asset("assets/icons/email.svg"),
@@ -139,6 +140,7 @@ class _SignInFormState extends State<SignInForm> {
                     return null;
                   },
                   decoration: InputDecoration(
+                    hintText: "Enter your password",
                     prefixIcon: Padding(
                       padding: const EdgeInsets.symmetric(horizontal: 8),
                       child: SvgPicture.asset("assets/icons/password.svg"),
@@ -168,7 +170,7 @@ class _SignInFormState extends State<SignInForm> {
                     CupertinoIcons.arrow_right,
                     color: Color(0xFFFE0037),
                   ),
-                  label: const Text("Sign In"),
+                  label: const Text("Sign In to Prelovedly"),
                 ),
               ),
             ],
